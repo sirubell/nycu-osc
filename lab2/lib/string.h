@@ -1,0 +1,9 @@
+#ifndef STRING_H
+#define STRING_H
+
+int strcmp(const char *s1, const char *s2);
+int strncmp(const char *s1, const char *s2, unsigned long n);
+unsigned long strlen(const char *s);
+void *memset(void *s, int c, unsigned long n);
+
+#endif /* STRING_H */

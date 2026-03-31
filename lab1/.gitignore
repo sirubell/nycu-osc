@@ -1,0 +1,11 @@
+# Build artifacts
+*.o
+kernel
+kernel.elf
+kernel.fit
+
+# Course documents
+*.pdf
+
+# Tooling
+.DS_Store

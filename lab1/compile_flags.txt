@@ -1,0 +1,4 @@
+--target=riscv64-unknown-elf
+-mcmodel=medany
+-ffreestanding
+-nostdlib
