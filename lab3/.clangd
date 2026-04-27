@@ -1,0 +1,11 @@
+CompileFlags:
+  Add:
+    - --target=riscv64-unknown-elf
+    - -march=rv64gc
+    - -mabi=lp64d
+    - -mcmodel=medany
+    - -ffreestanding
+    - -fno-builtin
+    - -nostdlib
+    - -I../lib
+    - -Ilib

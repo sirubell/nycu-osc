@@ -1,0 +1,12 @@
+# Build artifacts
+*.o
+*.bin
+*.elf
+*.fit
+
+# macOS metadata
+.DS_Store
+
+# Course documents (large binary files, not needed for demo)
+*.pdf
+*.png
